@@ -1,0 +1,26 @@
+src/
+ ├── app/                # App bootstrap
+ │     ├── navigation/
+ │     ├── providers/
+ │     └── App.tsx
+ │
+ ├── features/
+ │     ├── auth/
+ │     │     ├── screens/
+ │     │     ├── components/
+ │     │     ├── store/
+ │     │     ├── services/
+ │     │     └── types.ts
+ │     │
+ │     ├── profile/
+ │     └── payments/
+ │
+ ├── shared/
+ │     ├── components/   # Truly reusable
+ │     ├── hooks/
+ │     ├── utils/
+ │     ├── constants/
+ │     └── types/
+ │
+ ├── assets/
+ └── config/
